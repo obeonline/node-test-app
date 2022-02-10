@@ -1,0 +1,22 @@
+{
+  "name": "node-test-app",
+  "version": "0.1.0",
+  "description": "Node test application for containeration and deployment to Kubernetes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obeonline/node-test-app.git"
+  },
+  "author": "Obe Alexander",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "bugs": {
+    "url": "https://github.com/obeonline/node-test-app/issues"
+  },
+  "homepage": "https://github.com/obeonline/node-test-app#readme"
+}

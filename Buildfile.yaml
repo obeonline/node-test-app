@@ -10,7 +10,7 @@ spec:
     image: gcr.io/kaniko-project/executor:debug
     args:
     - "--context=git://github.com//obeonline/node-test-app"
-    - "--destination=obeonline/node-test-app:0.1"
+    - "--destination=obeonline/node-test-app:0.2"
     volumeMounts:
       - name: kaniko-secret
         mountPath: /kaniko/.docker
